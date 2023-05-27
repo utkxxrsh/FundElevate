@@ -6,7 +6,7 @@ import{ethers} from 'ethers';
 const StateContext=createContext();
 
 export const StateContextProvider=({children})=> {
-const {contract}=useContract('0xec2854572409Ba5E7ca4B6Ef6514FdD7f5D4e8A0');
+const {contract}=useContract('0xC2789C9429Ca9d700e1C2cf9b62760b5411e8127');
 
 const {mutateAsync:createCampaign }=
 useContractWrite(contract,'createCampaign');
